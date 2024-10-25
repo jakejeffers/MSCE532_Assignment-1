@@ -1,4 +1,4 @@
-def insertion_sort(arr):
+def insertion_sort_ascending(arr):
     # Traverse through the array starting from the second element
     for i in range(1, len(arr)):
         key = arr[i]  # The element to be placed at the correct position
@@ -15,5 +15,5 @@ def insertion_sort(arr):
 
 # Example usage
 array = [12, 11, 13, 5, 6]
-insertion_sort(array)
-print("Sorted array:", array)
+insertion_sort_ascending(array)
+print("Sorted array in increasing order:", array)
